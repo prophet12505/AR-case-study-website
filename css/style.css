@@ -24,6 +24,38 @@ p{
     font-size: 1.2rem;
     word-wrap:normal;
     line-height: 2.2rem;
+    position: relative;
+}
+.subheading{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.subheading button{
+    margin-top: 40px;
+    margin-left: 60%;
+    width:180px;
+    height: 25px;
+    border: 2px solid;
+    border-radius: 8px;
+    opacity: 0.5;
+    
+
+}
+.subheading button:hover{
+    cursor:pointer;
+    background-color:darkslateblue;
+    color: white;
+}
+.subheading a{
+    color: #1b0101;
+    text-decoration: none;
+   
+}
+fn{
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 5px;
 }
 
 header,section{
