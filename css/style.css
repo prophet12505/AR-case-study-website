@@ -20,6 +20,9 @@ body {
     background-repeat: no-repeat;
 
 }
+ol{
+    font-size: 1.1rem;
+}
 p{
     font-size: 1.2rem;
     word-wrap:normal;
@@ -70,6 +73,7 @@ header,section{
 h1 {
     font-size: 3rem;
 }
+
 
 /* nav section */
 hr {
@@ -126,6 +130,41 @@ iframe{
     margin: 0 auto;
     border: 2px solid ;
     border-radius: 2px;
+}
+
+/* gallery positioning */
+.gallery {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	/* background-color: lightgray; */
+}
+
+img {
+	width: 600px;
+	object-fit: contain; /* the image keeps its aspect ratio, but is resized to fit within the given dimensions */
+	margin: 0 50px;
+}
+
+#captionGallery {
+	font-size: 125%;
+	font-style: italic;
+    text-align: center;
+}
+
+/* gallery navigation */
+.previous, .next {
+  cursor: pointer;
+  padding: 16px 20px;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.5s ease;
+  border-radius: 3px;
+
+}
+.previous:hover,.next:hover{
+    background-color: gray;
 }
 
 
