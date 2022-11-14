@@ -12,10 +12,11 @@ body {
     color:#222;
    
     /* background-image: linear-gradient(to bottom left,#F2DEBA,#3A8891),url(../images/bg.jpg) ; */
-    background-image:linear-gradient(
+    background:linear-gradient(
         to right bottom,
         #f2debadd,#3a8891cf), 
-        url(../images/bg.jpg);
+        url(../images/bg.jpg) top,
+        url(../images/bg.jpg) bottom;
 
     background-repeat: no-repeat;
 
@@ -32,11 +33,12 @@ p{
 .subheading{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     position: relative;
 }
 .subheading button{
     margin-top: 40px;
-    margin-left: 60%;
+    /* margin-left: 60%; */
     width:180px;
     height: 25px;
     border: 2px solid;

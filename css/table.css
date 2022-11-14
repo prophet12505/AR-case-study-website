@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    margin: 20px 8%;
+    opacity: 0.8;
+
+}
+
+table th {
+    background-color: brown;
+}
+
+table th,
+td {
+    padding: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: #87A2FB;
+    color: #EEEEEE;
+}
+
+tr:nth-child(even) {
+    background-color: antiquewhite;
+
+}
+
+tr:hover {
+    background-color: #6F38C5;
+}
